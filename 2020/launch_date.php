@@ -4,8 +4,8 @@
 # from year to year. Change anything if needed.
 # Time is ISO 8601 formatted, example:
 # 2020-04-01T00:00:00+03:00
-if (intval(file_get_contents("debug.txt")) == 1) {
-    return date_create(file_get_contents("debug_launch.txt"));
+if (intval(file_get_contents("debug.txt", True)) == 1) {
+    return date_create(file_get_contents("debug_launch.txt", True));
 }
 $current_year = basename(__DIR__);
 $launch_month = "04";
