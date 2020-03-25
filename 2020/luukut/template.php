@@ -116,6 +116,12 @@ if (function_exists('after_head')) after_head();
 # now actually construct the page
 echo top($day);
 # Include the {day_number}.html, which should be the actual content from kukan toimitus
-readfile("luukut/" . $day . ".html");
+$path = "luukut/" . $day . ".html";
+if(!file_exists($path) || !isOpen($day, $pubMonth)) {
+    die("Ei oo semmosta luukkua, ainaskaan vielä tässä kohtaa kuuta :(<br/> Odota kärsivällisesti, kyllä se sieltä vielä tulee.");
+} else {
+    readfile($path);
+}
+
 echo bottom($day);
 ?>

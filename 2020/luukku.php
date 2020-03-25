@@ -43,12 +43,6 @@ function isOpen($d, $pubMonth) {
 
 $day = intval($_GET['d']);
 $path = './luukut/' . $day . '.html';
-/*
-if(!file_exists($path) || !isOpen($day, $pubMonth)) {
-    die("Ei oo semmosta luukkua, ainaskaan vielä tässä kohtaa kuuta :(<br/> Odota kärsivällisesti, kyllä se sieltä vielä tulee.");
-} else {
-    readfile($path);
-}
- */
+
 include("luukut/template.php")
 ?>
