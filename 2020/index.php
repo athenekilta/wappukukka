@@ -6,7 +6,7 @@ if (! require "is_published.php") {
 } else {
     header("Content-type: text/html; charset=utf-8");
     # Give users the content of etusivu.html
-    readfile("etusivu.html");
+    include("etusivu.php");
 }
 ?>
 
