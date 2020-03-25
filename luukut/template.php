@@ -9,6 +9,7 @@
     <title><?php if ($num == 100) { ?>Mainos<?php } else { ?>Luukku <?=$num ?><?php } ?></title>
 
     <link rel="stylesheet" href="css/luukku.css" />
+    <link rel="stylesheet" href="luukut/<?php echo (string) $num;?>.css">
     <meta name="robots" content="noindex, nofollow" />
     <?php if ($num != 1) { ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
