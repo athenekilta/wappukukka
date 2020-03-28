@@ -1,9 +1,11 @@
+<?php
+require "is_open.php";
+?>
 <div id="luukkulinkit">
     <?php
-    require "is_open.php";
-    for ($d = 1; $d <= 31; $d++) {
-        if (isOpen($d, 4)) {
-            echo '<a href="luukku.php?d=' . $d . '"><div class="luukkulinkki">' . $d . '</div></a>';
+    for ($d = 1; $d <= 30; $d++) {
+        if (isOpen($d)) {
+            echo '<a href="luukku.php?d=' . $d . '" class="luukkulinkki" id="luukku' . $d . '">' . $d . '</a>';
         }
     }
     ?>
