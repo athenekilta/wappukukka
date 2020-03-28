@@ -1,0 +1,163 @@
+.luukkulinkki {
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 1.4rem;
+    height: 1rem;
+    padding: 0.2rem 0;
+    text-align: center;
+}
+
+/* Kaikkien luukkujen positiot voi määrittää tässä */
+#luukku1 {
+    grid-row: 12 / span 3;
+    grid-column: 24 / span 3;
+}
+
+#luukku2 {
+    grid-row: 21 / span 3;
+    grid-column: 67 / span 3;
+}
+
+#luukku3 {
+    grid-row: 32 / span 3;
+    grid-column: 20 / span 3;
+}
+
+#luukku4 {
+    grid-row: 11 / span 3;
+    grid-column: 45 / span 3;
+}
+
+#luukku5 {
+    grid-row: 21 / span 3;
+    grid-column: 26 / span 3;
+}
+
+#luukku6 {
+    grid-row: 8 / span 3;
+    grid-column: 54 / span 3;
+}
+
+#luukku7 {
+    grid-row: 34 / span 3;
+    grid-column: 73 / span 3;
+}
+
+#luukku8 {
+    grid-row: 30 / span 3;
+    grid-column: 4 / span 3;
+}
+
+#luukku9 {
+    grid-row: 36 / span 3;
+    grid-column: 16 / span 3;
+}
+
+#luukku10 {
+    grid-row: 21 / span 3;
+    grid-column: 50 / span 3;
+}
+
+#luukku11 {
+    grid-row: 25 / span 3;
+    grid-column: 35 / span 3;
+}
+
+#luukku12 {
+    grid-row: 15 / span 3;
+    grid-column: 61 / span 3;
+}
+
+#luukku13 {
+    grid-row: 3 / span 3;
+    grid-column: 4 / span 3;
+}
+
+#luukku14 {
+    grid-row: 4 / span 3;
+    grid-column: 60 / span 3;
+}
+
+#luukku15 {
+    grid-row: 5 / span 3;
+    grid-column: 45 / span 3;
+}
+
+#luukku16 {
+    grid-row: 21 / span 3;
+    grid-column: 5 / span 3;
+}
+
+#luukku17 {
+    grid-row: 8 / span 3;
+    grid-column: 76 / span 3;
+}
+
+#luukku18 {
+    grid-row: 10 / span 3;
+    grid-column: 14 / span 3;
+}
+
+#luukku19 {
+    grid-row: 36 / span 3;
+    grid-column: 46 / span 3;
+}
+
+#luukku20 {
+    grid-row: 10 / span 3;
+    grid-column: 3 / span 3;
+}
+
+#luukku21 {
+    grid-row: 5 / span 3;
+    grid-column: 17 / span 3;
+}
+
+#luukku22 {
+    grid-row: 9 / span 3;
+    grid-column: 35 / span 3;
+}
+
+#luukku23 {
+    grid-row: 30 / span 3;
+    grid-column: 50 / span 3;
+}
+
+#luukku24 {
+    grid-row: 20 / span 3;
+    grid-column: 17 / span 3;
+}
+
+#luukku25 {
+    grid-row: 17 / span 3;
+    grid-column: 36 / span 3;
+}
+
+#luukku26 {
+    grid-row: 2 / span 3;
+    grid-column: 9 / span 3;
+}
+
+#luukku27 {
+    grid-row: 3 / span 3;
+    grid-column: 28 / span 3;
+}
+
+#luukku28 {
+    grid-row: 31 / span 3;
+    grid-column: 65 / span 3;
+}
+
+#luukku29 {
+    grid-row: 36 / span 3;
+    grid-column: 64 / span 3;
+}
+
+#luukku30 {
+    grid-row: 31 / span 3;
+    grid-column: 36 / span 3;
+}

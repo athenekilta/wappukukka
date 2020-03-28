@@ -1,6 +1,7 @@
 <?php
 date_default_timezone_set('Europe/Helsinki');
-if (! require "is_published.php") {
+$config=include("config.php");
+if ($config['debug'] == 0 && ! require "is_published.php") {
     header("Location: lähtölaskenta/");
     die();
 }
