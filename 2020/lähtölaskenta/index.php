@@ -45,7 +45,7 @@
                 $timer.text(hours + " h " + mins + ' min ' + secs + ' s');
             }
             else {
-                window.location.reload();
+                window.location = "../";
             }
         }
 
