@@ -1,7 +1,7 @@
 <?php
 $config = include("config.php");
 
-if ($config['debug'] == 0 && ! require "is_published.php") {
+if (! $config["show_all_luukkus"] && ! require "is_published.php") {
     # Redirect users to countdown
     header("Location: lähtölaskenta/");
     die();
