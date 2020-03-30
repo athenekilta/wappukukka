@@ -24,7 +24,12 @@
 
 
 	<footer>
-		<div class="small">Johannes Vainion p&auml;ivitt&auml;m&auml; versio Atte Kein&auml;sen muokkaamasta Vesa Laakson Marathon-laskurista, jota kukaan ei ole päivittänyt ainakaan viimeiseen kolmeen vuoteen.</div>
+        <div class="small">
+            Johannes Vainion p&auml;ivitt&auml;m&auml; versio Atte Kein&auml;sen muokkaamasta 
+            Vesa Laakson Marathon-laskurista, jota kukaan ei ole päivittänyt ainakaan viimeiseen kolmeen vuoteen.
+            <br>
+            2020 update: Sampo Rapeli teki tälle laskurille kamalia asioita, mutta hyvässä tarkoituksessa. Päiväyksen asettaminen joka vuosi erikseen on nyt ehkä historiaa.
+        </div>
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
