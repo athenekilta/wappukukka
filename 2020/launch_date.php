@@ -8,7 +8,7 @@ $config = include("config.php");
 if ($config["debug"] == 1 && $config["test_launch"] == true) {
     return $config["test_launch_date"];
 }
-$current_year = basename(__DIR__);
+$current_year = require("current_year.php");
 $launch_month = "04";
 $launch_date = "01";
 $hours = "00";
