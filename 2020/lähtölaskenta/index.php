@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta property="og:title" content="Wappukukka 2020" />
-	<title>Wappukukka 2020 Countdown</title>
+    <title>Wappukukka <?php echo require("../current_year.php") ?> Countdown</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
