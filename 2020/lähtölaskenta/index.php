@@ -2,14 +2,14 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta property="og:title" content="Wappukukka 2020" />
+	<meta property="og:title" content="Wappukukka <?php echo require("../current_year.php") ?>" />
     <title>Wappukukka <?php echo require("../current_year.php") ?> Countdown</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
 	<header>
-		<h1>Wappukukka 2020</h1>
+		<h1>Wappukukka <?php echo require("../current_year.php") ?></h1>
 	</header>
 	<div id="maincontainer">
 		<div class="info normal">Aikaa jäljellä julkistamiseen</div>
