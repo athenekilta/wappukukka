@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/luukkulinkit.css" type="text/css">
 </head>
 <body>
-    <!-- alla php, joka generoi linkit gridiin !-->
     <?php include("luukkulinkit.php") 
+        // yllä php, joka generoi linkit gridiin
               //TODO Todo
               /*
                * - toim. ilman js
@@ -26,8 +26,8 @@
                * - laitettiin vähän paikkoja uusiksi mutta sama purkka täällä edelleen pitää hommaa kasassa!
                * - mvh srapeli 30.3.2020
                */
+        // tämän php-tagin ylä- ja alapuolelle voi vapaasti laittaa omaa html:ää :)
     ?>
-    <!-- tämän php-tagin ylä- ja alapuolelle voi vapaasti laittaa omaa html:ää :) !-->
 </body>
 </html>
 
