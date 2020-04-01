@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set("Europe/Helsinki");
 $config = include("config.php");
 /* julkaistaan huhtikuussa */
 if($config['debug'] == 1) {
@@ -13,7 +14,7 @@ function isOpen($d) {
     $config = include("config.php");
     $year = (int) (require "launch_date.php")->format('Y');
     $pubMonth = (int) (require "launch_date.php") -> format('m');
-    if ($config['debug'] === 1) {
+    if ($config['debug'] == true) {
         $pubMonth -= 1;
     }
     /*luukku 100 on aina auki (ns. mainos)*/
@@ -21,7 +22,7 @@ function isOpen($d) {
         return true;
     }
 
-    if ($config['show_all_luukkus'] === 1) {
+    if ($config['show_all_luukkus'] == true) {
         return true;
     }
     /*pitaa vaihtaa vuosittain */
