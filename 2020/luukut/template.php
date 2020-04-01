@@ -86,6 +86,8 @@
 
 <?php
 # now actually construct the page
+include("../is_open.php");
+
 echo top($day);
 # Include the {day_number}.html, which should be the actual content from kukan toimitus
 $path = "luukut/" . $day . ".html";
