@@ -1,4 +1,8 @@
-<?php function top($num) { ?>
+<?php 
+
+include("../is_open.php");
+
+function top($num) { ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,7 +12,10 @@
         for differentiating an ad */ ?>
         <title><?php if ($num == 100) { ?>Mainos<?php } else { ?>Luukku <?=$num ?><?php } ?></title>
         <link rel="stylesheet" href="css/luukku.css">
-        <link rel="stylesheet" href="css/luukut/<?=$num ?>.css">
+        <?php if(isOpen($num)) {
+        echo '<link rel="stylesheet" href="css/luukut/' . $num . '.css">';
+        echo "\n";
+        }?>
         <meta name="robots" content="noindex, nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
@@ -86,8 +93,6 @@
 
 <?php
 # now actually construct the page
-include("../is_open.php");
-
 echo top($day);
 # Include the {day_number}.html, which should be the actual content from kukan toimitus
 $path = "luukut/" . $day . ".html";
