@@ -21,7 +21,7 @@ function top($num) { ?>
     </head>
     <body class="<?=$classes?> luukku-<?=$num?>">
         <header>
-            <div class="back"><a id="backlink" href="index.php">« Kalenteriin</a></div>
+            <div class="back"><a id="backlink" href="./">« Kalenteriin</a></div>
             <div class="id"><span class="l"><?php if ($num == 100) { ?>Mainos</span><?php } else { ?>Luukku</span> no. <span class="n"><?=$num ?></span><?php } ?></div>
         </header>
 <?php } ?>
