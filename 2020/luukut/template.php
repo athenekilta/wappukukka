@@ -66,7 +66,7 @@ function top($num) { ?>
         fclose($fileHandle);
 
         if ($readerHasVoted) {
-        echo '<span>Olet jo äänestänyt!</span> ';
+        echo '<span>Olet jo äänestänyt!<br></span> ';
         }
         else {
         echo '<form method="post" action=""><button name="votethisarticle" id="vote-this-article">Tämä oli hyvä luukku!</button></form> ';
