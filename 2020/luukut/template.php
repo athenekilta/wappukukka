@@ -7,7 +7,7 @@ function top($num) { ?>
 <html>
     <head>
         <meta charset="UTF-8" />
-        <? /* NOTE FROM 2015: this num-specific thing was done in 2014 and I
+        <?php /* NOTE FROM 2015: this num-specific thing was done in 2014 and I
         reused it, but the classes parameter would really be so much better
         for differentiating an ad */ ?>
         <title><?php if ($num == 100) { ?>Mainos<?php } else { ?>Luukku <?=$num ?><?php } ?></title>
